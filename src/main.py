@@ -34,7 +34,7 @@ def buildTrie():
 def punish_user(user_id):
     user_id = '<@' + str(user_id) + '>'
     responses = [
-        "{} - We don't use racist slurs here, or anywhere",
+        "{} - You are violating the SafeSpaceBot Rules",
         "Hey now {}, watch your mouth.",
         "We don't use that kind of language here, {}."
     ]
